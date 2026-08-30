@@ -1,5 +1,10 @@
 # video-bitrate-calculator
 
+[![npm](https://img.shields.io/npm/v/video-bitrate-calculator?color=cb3837&logo=npm)](https://www.npmjs.com/package/video-bitrate-calculator)
+[![CI](https://github.com/mengyuxuan2012/video-bitrate-calculator/actions/workflows/ci.yml/badge.svg)](https://github.com/mengyuxuan2012/video-bitrate-calculator/actions/workflows/ci.yml)
+[![install size](https://img.shields.io/badge/dependencies-0-brightgreen)](https://www.npmjs.com/package/video-bitrate-calculator?activeTab=dependencies)
+[![license](https://img.shields.io/npm/l/video-bitrate-calculator)](LICENSE)
+
 **What bitrate fits your file size?** The arithmetic behind every "how do I get this
 clip under 10 MB" question, as a zero-dependency library and a CLI.
 
