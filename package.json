@@ -1,0 +1,59 @@
+{
+  "name": "video-bitrate-calculator",
+  "version": "1.0.0",
+  "description": "Work out the video bitrate that fits a target file size — or a platform's upload limit. Zero dependencies, browser and Node.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./platforms": "./src/platforms.js"
+  },
+  "types": "./types/index.d.ts",
+  "bin": {
+    "video-bitrate-calculator": "./src/cli.js",
+    "vbc": "./src/cli.js"
+  },
+  "files": [
+    "src",
+    "types",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test \"test/*.test.js\"",
+    "types": "tsc",
+    "check": "npm run types && npm test",
+    "demo": "node src/cli.js discord 90s"
+  },
+  "keywords": [
+    "video",
+    "bitrate",
+    "calculator",
+    "compression",
+    "file-size",
+    "ffmpeg",
+    "discord",
+    "whatsapp",
+    "upload-limit",
+    "h264",
+    "encoding"
+  ],
+  "author": "videocompress.dev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mengyuxuan2012/video-bitrate-calculator.git"
+  },
+  "homepage": "https://github.com/mengyuxuan2012/video-bitrate-calculator#readme",
+  "bugs": {
+    "url": "https://github.com/mengyuxuan2012/video-bitrate-calculator/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  },
+  "sideEffects": false
+}
