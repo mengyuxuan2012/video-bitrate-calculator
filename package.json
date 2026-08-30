@@ -48,6 +48,10 @@
   "bugs": {
     "url": "https://github.com/mengyuxuan2012/video-bitrate-calculator/issues"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
   "engines": {
     "node": ">=20"
   },
