@@ -10,8 +10,8 @@
   },
   "types": "./types/index.d.ts",
   "bin": {
-    "video-bitrate-calculator": "./src/cli.js",
-    "vbc": "./src/cli.js"
+    "video-bitrate-calculator": "src/cli.js",
+    "vbc": "src/cli.js"
   },
   "files": [
     "src",
