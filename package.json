@@ -20,7 +20,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "test": "node --test \"test/*.test.js\"",
+    "test": "node --test",
     "types": "tsc",
     "check": "npm run types && npm test",
     "demo": "node src/cli.js discord 90s"
@@ -49,7 +49,7 @@
     "url": "https://github.com/mengyuxuan2012/video-bitrate-calculator/issues"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
